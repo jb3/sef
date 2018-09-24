@@ -1,0 +1,14 @@
+def main()
+    print("Hello welcome to my program!")
+    name = get_name()
+
+    welcome(name)
+end
+
+def get_name()
+    input("Please enter your name: ")
+end
+
+def welcome(name)
+    print("Welcome to my program", name)
+end
